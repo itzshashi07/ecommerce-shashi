@@ -258,11 +258,6 @@ const handleClick1 = (id) => {
   makeActiveBtn(currentActive);
 };
 
-
-
-
-
-
     var owl = $("#blog-cards-" + term);
     owl.owlCarousel({
       items: 3,
@@ -306,89 +301,6 @@ const handleClick1 = (id) => {
       owl.trigger("stop.owl.autoplay");
     });
   
-// ENd blog ******************************************************************************
-// Testimonial section ***//
-
-// const testimonialUrl = "data/testimonials.json";
-// const testimonialsSection = document.getElementById("testimonials-section");
-
-// const testimonialCards = () => {
-//   fetchData(testimonialUrl).then((data) => {
-//     let testimonialsCards =
-//       '<div id="testimonials-cards" class="owl-carousel owl-theme blog-cards " style="margin-top: 40px; margin-bottom: 20px;">';
-//     const Testimonials = data["testimonials"];
-//     Testimonials.forEach((testimonial) => {
-//       let Review = limit(testimonial.review, 200);
-//       testimonialsCards += `<div class="test-card">
-//     <p class="quote-s"><i class="fa-solid fa-quote-left"></i></p>
-//     <p>${Review}</p>
-//     <p class="name"> - ${testimonial.name}</p>
-
-//   </div>`;
-//     });
-//     testimonialsSection.innerHTML = testimonialsCards;
-//     // for testimonials slider
-//     var owl = $("#testimonials-cards");
-//     owl.owlCarousel({
-//       items: 3,
-//       loop: true,
-//       margin: 10,
-//       autoplay: true,
-//       autoplayTimeout: 2000,
-//       autoplayHoverPause: true,
-//       responsiveClass: true,
-
-//       responsive: {
-//         0: {
-//           items: 1,
-//           nav: false,
-//         },
-//         430: {
-//           items: 2,
-//         },
-//         767: {
-//           items: 2,
-//           nav: false,
-//           loop: true,
-//         },
-//         1000: {
-//           items: 3,
-//           nav: false,
-//           loop: false,
-//         },
-//         1200: {
-//           items: 3,
-//           nav: false,
-//           loop: false,
-//         },
-//       },
-//     });
-//     $(".play").on("click", function () {
-//       owl.trigger("play.owl.autoplay", [1000]);
-//     });
-//     $(".stop").on("click", function () {
-//       owl.trigger("stop.owl.autoplay");
-//     });
-//   });
-// };
-// testimonialCards();
-
-//End Testimonials //******************************************** */
-// const removeCartItems = (quantity1, category, productid) => {
-//   const quantity = quantity1;
-//   const currentProduct = productid;
-//   const categoryId = category;
-//   // console.log(currentProduct)
-//   let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-//   cartItems.filter((item) => {
-//     if (item.productId.includes(currentProduct)) {
-//       cartItems.splice(cartItems.indexOf(item), 1);
-//     }
-//   });
-//   let set = localStorage.setItem("cartItems", JSON.stringify(cartItems));
-//   alert("Product removed to cart");
-//   location.reload();
-// };
 
 const shoppingCart = () => {
   let cartProducts = JSON.parse(localStorage.getItem("cartItems")) || [];
