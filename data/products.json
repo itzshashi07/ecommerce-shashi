@@ -1,0 +1,771 @@
+{
+  
+    "featured": [
+       {
+           "id": 1,
+           "title": "iPhone 9",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "electronics",
+           "image": "https://source.unsplash.com/400x300/?iPhone"
+           
+         },
+         {
+           "id": 2,
+           "title": "Footwear",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?footwear"
+           
+         },
+         {
+           "id": 3,
+           "title": "Beauty",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "beauty",
+           "image": "https://source.unsplash.com/400x300/?beauty"
+           
+         },
+         {
+           "id": 4,
+           "title": "Jeans",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?jeans"
+           
+         },
+         {
+           "id": 5,
+           "title": "Nikon camera",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Nikon",
+           "productCategory":"featured",
+           "category": "electronics",
+           "image": "https://source.unsplash.com/400x300/?camera"
+           
+         },
+         {
+           "id": 6,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 7,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 8,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 9,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 10,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 11,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?girl"
+           
+         },
+         {
+           "id": 12,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?dress"
+           
+           
+         },
+         {
+           "id": 13,
+           "title": "Fashion",
+           "description": "An apple mobile which is nothing like apple",
+           "price": 549,
+           "discountPercentage": 12.96,
+           "rating": 4.69,
+           "stock": 94,
+           "brand": "Apple",
+           "productCategory":"featured",
+           "category": "fashion",
+           "image": "https://source.unsplash.com/400x300/?boy"
+   
+           
+         }
+         
+   
+   ] ,
+   "latest": [
+     {
+         "id": 1,
+         "title": "Samsung F13",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?samsung"
+         
+       },
+       {
+         "id": 2,
+         "title": "Footwear",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?spark"
+         
+       },
+       {
+         "id": 3,
+         "title": "Beauty",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "beauty",
+         "image": "https://source.unsplash.com/400x300/?cream"
+         
+       },
+       {
+         "id": 4,
+         "title": "Jeans",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?jeans"
+         
+       },
+       {
+         "id": 5,
+         "title": "Nikon camera",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Nikon",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?cellphone"
+         
+       },
+       {
+         "id": 6,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 7,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?boy"
+         
+       },
+       {
+         "id": 8,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 9,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 10,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 11,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 12,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?dress"
+         
+         
+       },
+       {
+         "id": 13,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"latest",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?boy"
+   
+         
+       }
+       
+   
+   ]  ,
+   "bestsellers": [
+     {
+         "id": 1,
+         "title": "iPhone 11 pro",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?iPhone11pro"
+         
+       },
+       {
+         "id": 2,
+         "title": "Nike Shoes",
+         "description": " Shoes mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?nikeshoes"
+         
+       },
+       {
+         "id": 3,
+         "title": "Beauty",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "beauty",
+         "image": "https://source.unsplash.com/400x300/?facewash"
+         
+       },
+       {
+         "id": 4,
+         "title": "Jeans",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?denim"
+         
+       },
+       {
+         "id": 5,
+         "title": "Nikon camera",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Nikon",
+         "productCategory":"bestsellers",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?camera"
+         
+       },
+       {
+         "id": 6,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 7,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 8,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 9,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 10,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 11,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 12,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?dress"
+         
+         
+       },
+       {
+         "id": 13,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"bestsellers",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?boy"
+   
+         
+       }
+       
+   
+   ]  ,
+   "specials": [
+     {
+         "id": 1,
+         "title": "iPhone 9",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?iphone13pro"
+         
+       },
+       {
+         "id": 2,
+         "title": "Footwear",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?addidas"
+         
+       },
+       {
+         "id": 3,
+         "title": "Beauty",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "beauty",
+         "image": "https://source.unsplash.com/400x300/?soap"
+         
+       },
+       {
+         "id": 4,
+         "title": "Jeans",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?jeans"
+         
+       },
+       {
+         "id": 5,
+         "title": "Nikon camera",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Nikon",
+         "productCategory":"specials",
+         "category": "electronics",
+         "image": "https://source.unsplash.com/400x300/?camera"
+         
+       },
+       {
+         "id": 6,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 7,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?boy"
+         
+       },
+       {
+         "id": 8,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?smartphone"
+         
+       },
+       {
+         "id": 9,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?book"
+         
+       },
+       {
+         "id": 10,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?locker"
+         
+       },
+       {
+         "id": 11,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?girl"
+         
+       },
+       {
+         "id": 12,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?dress"
+         
+         
+       },
+       {
+         "id": 13,
+         "title": "Fashion",
+         "description": "An apple mobile which is nothing like apple",
+         "price": 549,
+         "discountPercentage": 12.96,
+         "rating": 4.69,
+         "stock": 94,
+         "brand": "Apple",
+         "productCategory":"specials",
+         "category": "fashion",
+         "image": "https://source.unsplash.com/400x300/?boy"
+   
+         
+       }
+       
+   
+   ]
+   }
+   
+   
+   

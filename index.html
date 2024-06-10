@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header>
+    <div class="container top-header  justify-content-between">
+
+      <div class="top-header-left ">
+        <ul class="d-flex">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i> About Us</a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          <li>
+            <div class="more-menu dropdown-block">
+              <button class="dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown">
+                FAQ
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="top-header-middle">
+        <ul class="d-flex mobile-language">
+          <li>
+            <div class="more-menu dropdown-block">
+              <button class="dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJNSURBVHjaADEAzv8Bdn+ySSLrALyz/0lXtNYL/v//LScKIayCARET3EFo0tbz/wD+TSv5/Z6NCFtlhsERAgAxAM7/AHaAsuTp/v729f7Uz/75++Dm/vT2/v7Mxf7XzvP1/t7j/v72+P6wpv7y8MfU/j9LpQIAMQDO/wIA/wL/AADL3AoBGx8BtLIfCvf09wEB09AB2tzy9gEhCvMBc3EBOUOWugz39gAA9P4CiImBkQEEGBlOPBJkcHNl2LNdnPkLw927DD9eSTF/YqgtY2hrmXJY+MNHhl+/QAoBAojFk+mYNJOJDNt7BqBFT/4zaGsxdDczXL7DcOEaw5GzDDl5DPdu5oh8ZeD/9V9Yko2hByAAADEAzv8E/8fAAEhJANHWAP4AAN7hAOrlAOzrAPDzAPj2AOjnAL5ZAPv4APj6APz8AGZY7gAAAoiFUUmVQV6FgUuQAWiFpSWDgABDYjzDZ6CGHwycbAxzZjN8+8bw4zfDz18M2sqC+w8CBBDLZsEAxX/ij35KAP1io/yBobmJYcsOBnNDBn52hrV7GSIDGWZNz14u8eX7Dw9mtpkM7gABxAQMeJDrgarl3jA01jNU1r/7ycbw7QfD9z/H3gkzTJ3HEBUz1eXK/19f/v79w8DwCyCAmEBO/89go/bp//Hd/1s7Dz/hY2H9/z8h8H+0n4Tg/5UPxf+t3/zr+J6FGT8Y/v5mYPgNEEAsDP//3t867drS2UyJhe2x6xje/7UOFbPYvQdoZ9854/8vrk5n+JrCdeXNts1SIHdYAgQYAHK0/st9mgoPAAAAAElFTkSuQmCC"
+                  alt=""> English
+              </button>
+              <span class="notch" style="left: 8px;"></span>
+              <div class="dropdown-menu dropdown-content" aria-labelledby="more-menu">
+
+
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="more-menu dropdown-block">
+              <button class="dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-dollar-sign"></i> Dollar
+              </button>
+            </div>
+          </li>
+        </ul>
+       
+      </div>
+      <div class="top-header-right ">
+        <ul class="d-flex">
+          <li>
+            <div class="more-menu dropdown-block">
+              <button class="dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                More Menus
+              </button>
+             
+            </div>
+          </li>
+          <li><a href=""><i class="fa-solid fa-truck-fast"></i> Delivery</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="middle bg-gray">
+      <div class="middle-header d-flex  align-items-center container">
+        <div class="brand-name">
+          <a href="index.html">
+            <h1>Journal</h1>
+          </a>
+        </div>
+        <div class="bars-toggle">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </div>
+        <div class="search-bar d-flex">
+          <div class="more-menu dropdown-block filter-dropdown">
+            <button class="dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              All
+            </button>
+           
+          </div>
+          <div action="" class="search-form" id="">
+            <input type="text" placeholder="Search here..." id="search-input">
+            <button class="search-bar-btn"  type="submit"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <div class="middle-header-menus ">
+          <ul class="d-flex">
+          
+
+            <li><a id="login"><i class="fa-solid fa-circle-user"></i>Login</a></li>
+            <li id="register"><a><i class="fa-solid fa-pencil"></i></i>Register</a></li>
+
+            <li><a id="wish-item-n1" href="wishlist.html"><i class="fa-regular fa-heart"></i></i>Wishlist</a></li>
+            <li><a href=""><i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90"></i>Compare</a></li>
+          </ul>
+        </div>
+       
+
+        <div class="middle-header-cart d-flex align-items-center">
+          <p>0 item(s)-$0.00</p>
+          <span id="cart-item-n"></span>
+          <button class="cart-btn" id="cart-item-n1"><a href=""><i
+                class="fa-solid fa-cart-shopping"></i></a></button>
+        </div>
+      </div>
+    </div>
+    <div class="lower">
+      <div class="lower-header d-flex align-items-center justify-content-between container">
+        <div class="lower-left">
+          <ul class="d-flex align-items-center">
+            <!-- <li class="yellow-box"><a href=""><i class="fa-solid fa-align-left"></i> All Departments <sup>Sale</sup> </a></li> -->
+            <li class="yellow-box dropdown-block">
+              <div class="more-menu dropdown-block">
+                <a href=""><i class="fa-solid fa-align-left"></i> All Departments <sup>Sale</sup></a>
+              </div>
+            </li>
+            <li class="dropdown-block">
+              <a href="">Multilevel</a>
+            </li>
+            <li class="" id="megamenu">
+              <div class="more-menu dropdown-block">
+                <a href="">Mega Menu <sup class="new-yellow-up">New</sup></a>
+              </div>
+            </li>
+            <!-- <li style="width: 132px;"><a href="">mega menu <sup class="new-yellow-up">New</sup></a></li> -->
+            <li><a href="">Full Width</a></li>
+          </ul>
+        </div>
+        <div class="lower-right">
+          <ul class="d-flex align-items-center">
+            <li style="width: 135px;"><a href=""><i class="fa-solid fa-phone-volume"></i> 18005556789</a></li>
+            <li class="yellow-box-blog" style="padding-right: 0;"><a href=""><i class="fa-solid fa-file-lines"></i> Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="mobile-bottom-header">
+      <div class="brand-name">
+        <h1>Journal</h1>
+      </div>
+      <div class="right-side">
+        <ul>
+          <li id="menu-mobile" ><i class="fa-solid fa-bars"></i></li>
+          <li id="search-mobile"><i role="button"
+              class="fa-solid fa-magnifying-glass"></i></li>
+          <li><span id="cart-item-mobile"
+              style="right: -30px; padding-right: 6px; padding-top: 3px; padding-bottom: 3px;"></span><a
+              href="shopping-cart.html" style="color: black!important;"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+        </ul>
+        <div class="mobile-menu" id="mobile-menu">
+          <div class="mobile-menus">
+            <span style="position: relative; right: -90%; top: 20px;" onclick="hideMobileMenu()" ><i class="fa-solid fa-xmark"></i></span>
+            <ul class="">
+              <!-- <li class="yellow-box"><a href=""><i class="fa-solid fa-align-left"></i> All Departments <sup>Sale</sup> </a></li> -->
+              <li class="dropdown-block">
+                <div class="more-menu dropdown-block">
+                  <a><i class="fa-solid fa-align-left"></i> All Departments</a>
+                 
+                </div>
+              </li>
+              <li class="dropdown-block">
+                <div class="more-menu dropdown-block">
+                  <a >Multilevel </a>
+                            
+              </li>
+              <li class="" id="megamenu">
+                <div class="more-menu dropdown-block">
+                  <a>Mega Menu</a>
+
+                </div>
+              </li>
+              <!-- <li style="width: 132px;"><a href="">mega menu <sup class="new-yellow-up">New</sup></a></li> -->
+              <li><a>full width</a></li>
+  
+            </ul>
+          </div>
+
+        </div>
+        
+        <div action="" class="search-form mobile-search" id="search-form">
+          <span class="search-close" <i class="fa-solid fa-xmark"></i></span>
+          <input type="text" placeholder="Search here..." id="search-input1">
+          <button class="search-bar-btn"  type="submit"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  
+ <!-- hero section  -->
+ <section class="hero-section container d-flex">
+  <div class="carousel-wrapper">
+    <div id="banner-slider" class="owl-carousel owl-theme">
+      <div class="hero-left">
+        <div class="hero-text">
+          <button class="hero-mobile-button">Mobile</button>
+          <h2>Best mobile options at any resolutions</h2>
+          <button class="hero-more-button">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+
+
+        </div>
+        <img src="https://5.imimg.com/data5/IF/OG/XG/ANDROID-82805968/product-jpeg-500x500.jpg" alt="">
+
+      </div>
+      <div class="hero-left">
+        <div class="hero-text">
+          <button class="hero-mobile-button">Mobile</button>
+          <h2>Best mobile options at any resolutions</h2>
+          <button class="hero-more-button">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+
+
+        </div><img src="https://5.imimg.com/data5/IF/OG/XG/ANDROID-82805968/product-jpeg-500x500.jpg" alt="">
+
+      </div>
+      <div class="hero-left">
+        <div class="hero-text">
+          <button class="hero-mobile-button">Mobile</button>
+          <h2>Best mobile options at any resolutions</h2>
+          <button class="hero-more-button">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+
+
+        </div><img src="https://5.imimg.com/data5/IF/OG/XG/ANDROID-82805968/product-jpeg-500x500.jpg" alt="">
+
+      </div>
+    </div>
+  </div>
+  <div class="hero-right d-flex">
+    <div class="hero-right-1">
+      <div class="right-hero-text">
+        <p>wearables</p>
+        <h3>intelligent & durable design</h3>
+      </div>
+      <img src="images/image3.png" alt="">
+    </div>
+
+    <div class="hero-right-1">
+      <div class="right-hero-text">
+        <p>computers</p>
+        <h3>bulid your own high powered pc</h3>
+
+      </div>
+      <img src="images/core-i3-4170-processor-punta-original-imaggvkxbkyefhzj.webp" alt="">
+
+    </div>
+
+</section>
+
+  <!-- Features section -->
+
+  <section class="features">
+    <div class="container features-section d-flex justify-content-around align-items-center">
+      <div class="first-feature">
+        <div class="d-flex">
+          <p class="padding-right-5"><i class="fa-solid fa-truck-fast"></i></p>
+          <p><span class="white">Free Shipping</span><br>
+            <span class="gray">Free delivery over $100</span>
+          </p>
+
+        </div>
+      </div>
+      <div class="first-feature">
+        <div class="d-flex">
+          <p class="padding-right-5"><i class="fa-solid fa-reply"></i></p>
+          <p><span class="white">Free Returns</span><br>
+            <span class="gray">Hassle free returns</span>
+          </p>
+
+        </div>
+      </div>
+      <div class="first-feature">
+        <div class="d-flex">
+          <p class="padding-right-5"><i class="fa-solid fa-lock"></i></p>
+          <p><span class="white">Secure Shopping</span><br>
+            <span class="gray">Best security features</span>
+          </p>
+
+        </div>
+      </div>
+      <div class="first-feature">
+        <div class="d-flex">
+          <p><i class="fa-solid fa-cube"></i></p>
+          <p><span class="white">Unlimited blocks</span><br>
+            <span class="gray">Any content any page</span>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- why buy from us section -->
+
+  <section class="why-buy-from-us container">
+    <div class="why-upper-text text-center">
+      <h1>Why buy from us ? </h1>
+      <p class="line"></p>
+      <p style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;">Journal has been the best
+        selling and most loved opencart theme since first launch 2013. Tried and tested by over 20k people, journal is
+        the best Openkart theme framework on the market today. <a href="">Learn more</a></p>
+
+    </div>
+    <div class="button-container" id="category-btns">
+      <button id="top_categories" onclick="handleClick(this.id)" class="category-btn active-btn buy"><span
+          class="active-btn"></span>Top categories</button>
+      <button id="electronics" onclick="handleClick(this.id)" class="category-btn buy"><span
+          class=""></span>Electronic</button>
+      <button id="beauty" onclick="handleClick(this.id)" class="category-btn buy"><span class=""></span>Beauty</button>
+      <button id="fashion" onclick="handleClick(this.id)" class="category-btn buy"><span
+          class=""></span>Fashion</button>
+    </div>
+    <div class="carousal-wrapper tab-content">
+      <div id="buyfromussection" class="category-products next blog-cards ">
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- featured-products section -->
+
+  <section class="why-buy-from-us featured-products-container container">
+    <div class="why-upper-text text-center">
+      <h1>Featured Products</h1>
+      <p class="line"></p>
+      <p style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;">Display any products as tabs or
+        accordations with optional grid or carousal mode. Custom products per row per module and per breakpoint. Each
+        module can display products in either grid or list view with different styles per module.</p>
+
+    </div>
+    <div class="button-container" id="featured-products-btns">
+      <button id="featured" onclick="handleClick1(this.id)" class="category-btn active-btn"><span
+          class="active-btn"></span>Featured</button>
+      <button id="latest" onclick="handleClick1(this.id)" class="category-btn"><span class=""></span>Latest</button>
+      <button id="bestsellers" onclick="handleClick1(this.id)" class="category-btn"><span
+          class=""></span>bestsellers</button>
+      <button id="specials" onclick="handleClick1(this.id)" class="category-btn"><span class=""></span>specials</button>
+    </div>
+
+    <div id="featured-products1" class="featured-products next">
+    </div>
+    <div class="show-allbutton">
+      <a href="allproducts.html"><button>See all products <i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+
+  </section>
+
+  <!-- 
+    featured category section -->
+  <section class="featured-category-container">
+    <div class="featured-category container">
+      <div class="why-upper-text text-center">
+        <h1>Featured Category</h1>
+        <p class="line"></p>
+        <p style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;">Easily create category based
+          modules and display products from specific categories or brands only. The advanced page builder allows you to
+          create any grid layout with full control at any breakpoint.</p>
+
+      </div>
+      <div class="featured-categories-products d-flex">
+        <div class="featured-left">
+          <h3 style="font-size: 20px; font-weight:500;">Fashion</h3>
+          <p class="featured-left-1"></p>
+          <img src="https://source.unsplash.com/400x300/?fashion" alt="">
+          <p>Accesories</p>
+          <p>Dresses</p>
+          <p>pants</p>
+          <p>T-Shirts</p>
+          <a href="#">See all in Fashion</a>
+
+        </div>
+        <div class="featured-right">
+          <h3 style="font-size: 20px;">New in Fashion</h3>
+          <p class="featured-right-1"></p>
+          <div id="new-in-fashion" class="next">
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- shop buy brand -->
+
+  <section class="why-buy-from-us featured-products-container container">
+    <div class="why-upper-text text-center">
+      <h1>Shop by Brand</h1>
+      <p class="line"></p>
+    </div>
+    <div id="brands" class="owl-carousel owl-theme next" style="margin-top: 40px; margin-bottom: 20px;">
+      <div class="item">
+        <img src="https://source.unsplash.com/200x200/?nikelogo" alt="">
+      </div>
+      <div class="item">
+        <img src="https://source.unsplash.com/200x200/?BoatLogo" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo3.png" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo3.png" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo1.jpeg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo2.jpeg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo3.png" alt="">
+      </div>
+      <div class="item">
+        <img src="https://source.unsplash.com/200x200/?Addidas" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo3.png" alt="">
+      </div>
+      <div class="item">
+        <img src="images/logo2.jpeg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- gallery section -->
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="why-upper-text text-center">
+        <h1 style="color: white;">Improved Gallery Module</h1>
+        <p class="line"></p>
+        <p style="width: 1000px; text-align: center; margin-left: auto; margin-right: auto;"></p>The Gallery module
+        supports images,videos and can also act as banners that can point at any other page pr open other Popup module.
+        Create different modules with images, videos, banners pr a combinations of all. Add your modules on any page in
+        ny any grid format.</p>
+      </div>
+      <div class="image-gallery">
+
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?nike" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?iphone" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?computer" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?girl" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?boys" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?mens" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?stylish" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?fashiontrending" alt="">
+        </div>
+        <div class="image">
+          <img src="https://source.unsplash.com/200x200/?womens" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- blog posts section -->
+
+  <section class="why-buy-from-us blog-container">
+    <div class="container">
+      <div class="why-upper-text text-center">
+        <h1>From Our Blog</h1>
+        <p class="line"></p>
+        <p style="width: 100%; text-align: center; margin-left: auto; margin-right: auto;">Display any products as tabs
+          or accordations with optional grid or carousal mode. Custom products per row per module and per breakpoint.
+          Each module can display products in either grid or list view with different styles per module.</p>
+
+      </div>
+      <div class="button-container" id="blog-posts-btns">
+        <button id="latest_posts" onclick="handleClick2(this.id)" class="category-btn active-btn"><span
+            class="active-btn"></span>Latest Posts</button>
+        <button id="most_rated" onclick="handleClick2(this.id)" class="category-btn"><span></span>Most Rated</button>
+      </div>
+
+      <div class="carousal-wrapper">
+        <div id="blog-cards-section" class="blog-cards next" style="margin-top: 40px; margin-bottom: 20px;">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- testimonials section -->
+
+  <section class="why-buy-from-us testimonials-section">
+    <div class="container">
+      <div class="why-upper-text text-center">
+        <h1>What people are saying about us</h1>
+        <p class="line"></p>
+
+      </div>
+
+      <div class="carousal-wrapper">
+        <div id="testimonials-section" class="blog-cards next" style="margin-bottom: 20px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+    most viewed section -->
+
+  <section class="why-buy-from-us most-buy-section" style="margin-bottom: 0;">
+    <div class="container">
+      <div class="why-upper-text text-start">
+        <h1 style="color: white; font-size: 20px;">Most Viewed</h1>
+        <p class="line start"></p>
+
+      </div>
+
+      <div class="carousal-wrapper">
+        <div id="most-viewed" class="owl-carousel owl-theme next" style="margin-top: 40px; margin-bottom: 20px;">
+
+          <div class="most-viewed-card d-flex">
+            <div class="image-viewed">
+              <img src="images/image8.jpeg" alt="">
+            </div>
+            <div class="viewed-right">
+              <h1>Sunglaseses oversized for lon....</h1>
+              <p>$397.00</p>
+              <div class="icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90" style="margin-left: 0px;"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="most-viewed-card d-flex">
+            <div class="image-viewed">
+              <img src="images/image8.jpeg" alt="">
+            </div>
+            <div class="viewed-right">
+              <h1>Sunglaseses oversized for lon....</h1>
+              <p>$397.00</p>
+              <div class="icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90" style="margin-left: 0px;"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="most-viewed-card d-flex">
+            <div class="image-viewed">
+              <img src="images/image8.jpeg" alt="">
+            </div>
+            <div class="viewed-right">
+              <h1>Sunglaseses oversized for lon....</h1>
+              <p>$397.00</p>
+              <div class="icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90" style="margin-left: 0px;"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="most-viewed-card d-flex">
+            <div class="image-viewed">
+              <img src="images/image8.jpeg" alt="">
+            </div>
+            <div class="viewed-right">
+              <h1>Sunglaseses oversized for lon....</h1>
+              <p>$397.00</p>
+              <div class="icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90" style="margin-left: 0px;"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="most-viewed-card d-flex">
+            <div class="image-viewed">
+              <img src="images/image8.jpeg" alt="">
+            </div>
+            <div class="viewed-right">
+              <h1>Sunglaseses oversized for lon....</h1>
+              <p>$397.00</p>
+              <div class="icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-arrow-down-up-across-line fa-rotate-90" style="margin-left: 0px;"></i>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- social-menu sections -->
+
+  <section class="social-menus">
+    <div class="social-menu container">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+      <a href=""><i class="fa-brands fa-skype"></i></a>
+      <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+    </div>
+
+  </section>
+
+  <!-- footer section -->
+
+  <footer class="">
+    <div class="footer container">
+      <div class="footer-about-us">
+        <h3>
+          About Us
+        </h3>
+        <p class="line start"></p>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Delivery</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms & Conditions</a></li>
+          <li><a href="">Custom links</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-customer-service">
+        <h3>
+          Customer service
+        </h3>
+        <p class="line start"></p>
+        <ul>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Site Map</a></li>
+          <li><a href="">Brands</a></li>
+          <li><a href="">Unlimited links</a></li>
+        </ul>
+      </div>
+      <div class="footer-myaccount">
+        <h3>
+          My Account
+        </h3>
+        <p class="line start"></p>
+        <ul>
+          <li><a href="">My Account</a></li>
+          <li><a href="">Order History</a></li>
+          <li><a href="">Affiliates</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">Gift Certificates</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h3>
+          Newsletter
+        </h3>
+        <p class="line start"></p>
+        <p>Stay up to date with news and promotions by signing up for our newsletter.</p>
+        <form action="" class="subscribe-form" id="newsletter-form">
+          <input type="email" placeholder="abc@gmail.com" id="newsletter-email" required>
+          <button type="submit">
+            <span><i class="fa-solid fa-envelope"></i> Send</span>
+          </button>
+          <div class="checkbox"><input type="checkbox" name="" id="" required>
+            <label for="">I have read and agree to the <a href="">Privacy policy</a></label>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>Copyright &copy 2014.Your Store.All rights Reserved</p>
+        <div class="payments-secure">
+          <p><i><i class="fa-brands fa-cc-mastercard"></i></i></p>
+          <p><i class="fa-brands fa-cc-visa"></i></p>
+          <p><i class="fa-brands fa-cc-amex"></i></p>
+          <p><i class="fa-brands fa-cc-discover"></i></p>
+          <p><i class="fa-brands fa-cc-paypal"></i></p>
+
+          <p> <i class="fa-brands fa-cc-stripe"></i></p>
+
+
+        </div>
+
+      </div>
+
+
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
