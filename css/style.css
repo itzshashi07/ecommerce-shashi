@@ -165,11 +165,13 @@ header {
     border-radius: 5px;
 }
 
-.brand-name a {
+.logo a {
     padding-left: 0 !important;
+    font-family: "Fantacy", "Courier New", monospace;
+   
 }
 
-.brand-name h1 {
+.logo h1 {
     font-size: 35px;
     font-weight: 800;
     text-transform: uppercase;
@@ -177,6 +179,7 @@ header {
     padding-top: 0;
     margin-top: 0;
     padding-left: 0;
+    
 
 
 }
